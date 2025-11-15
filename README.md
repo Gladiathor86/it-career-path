@@ -5,7 +5,7 @@ A célom egy olyan átlátható, folyamatosan bővülő tudásbázis összeáll�
 
 ---
 
-## 📌 Tartalom
+##  Tartalom
 
 - **docs/** – Átfogó dokumentációk  
 - **homelab/** – A saját Proxmox alapú Home Lab rendszerem részletes leírásai  
@@ -15,7 +15,7 @@ A célom egy olyan átlátható, folyamatosan bővülő tudásbázis összeáll�
 
 ---
 
-## 🧭 Kiindulópont: Miért hoztam létre ezt a repót?
+##  Kiindulópont: Miért hoztam létre ezt a repót?
 
 Szeretném dokumentálni:
 - a tanulási folyamatomat,
@@ -28,7 +28,7 @@ Ez a repo egyben szakmai portfólió is.
 
 ---
 
-## 🚀 Karrier irányok, amiket célzok
+##  Karrier irányok, amiket célzok
 
 - Linux System Administrator  
 - DevOps Engineer (Junior → Medior)  
@@ -39,7 +39,7 @@ Ez a repo egyben szakmai portfólió is.
 
 ---
 
-## 📚 Tanulási Roadmap (rövid összefoglaló)
+##  Tanulási Roadmap (rövid összefoglaló)
 
 ### 1. Linux alapok
 - fájlrendszerek  
@@ -77,7 +77,7 @@ A részletes dokumentációk a **docs/** és **homelab/** könyvtárakban talál
 
 ---
 
-## 🏗 Home Lab (Proxmox Cluster)
+##  Home Lab (Proxmox Cluster)
 
 - 3 × Lenovo M910q mini PC (i5-7500T)
 - teljes Proxmox cluster  
@@ -88,9 +88,9 @@ A részletes dokumentációk a **docs/** és **homelab/** könyvtárakban talál
 - Cloudflare DNS, Zero Trust tesztelés  
 
 Részletes beállítások:  
-👉 `homelab/proxmox/`  
-👉 `homelab/docker/`  
-👉 `homelab/network/`
+ `homelab/proxmox/`  
+ `homelab/docker/`  
+ `homelab/network/`
 
 ---
 
@@ -103,7 +103,7 @@ Részletes beállítások:
 
 ---
 
-## 🔐 DevSecOps fókusz
+##  DevSecOps fókusz
 
 - container scanning  
 - k8s security  
@@ -112,7 +112,7 @@ Részletes beállítások:
 
 ---
 
-## 📈 Célok
+## Célok
 
 - RHCSA, RHCE, EX280  
 - CKA, majd CKS  
@@ -123,7 +123,7 @@ Részletes beállítások:
 
 ---
 
-## 📬 Kapcsolat
+##  Kapcsolat
 
 Ez a repo személyes projekt, folyamatosan bővítem.  
 Külső megkereséshez: *GitHub Issues / Discussions* használható.
