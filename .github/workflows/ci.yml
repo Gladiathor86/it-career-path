@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  basic-checks:
+    name: Basic repository checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show directory tree
+        run: |
+          echo "Listing files in the repository:"
+          ls -R
+
+      - name: Basic Markdown presence check
+        run: |
+          echo "Checking for key documentation files..."
+          test -f README.md || (echo "README.md is missing!" && exit 1)
+          test -d docs || echo "Warning: docs/ directory not found (optional)"
+          echo "Basic checks finished."
